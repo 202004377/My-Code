@@ -1,0 +1,155 @@
+/***************************navbar styling***********************/
+.navbar{
+    background-color: rgb(0, 153, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-brand{
+    text-shadow: 1px 2px 1px rgb(255, 255, 255);
+}
+.heading{
+    color: #444;
+    font-size: 33px;
+}
+.navbar-nav{
+    background-color: rgb(197, 220, 233);
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+    padding-left: 5px !important;
+    display: flex;
+    position: relative;
+}
+.account{
+    position: absolute;
+    right: 10px;
+    top: -60;
+}
+.btn-login{
+    background-color:white !important; 
+}
+.btn-login:hover{
+    background-color: #666;
+}
+
+/****************************acccount**************************/
+.account{
+    display: flex;  
+    gap: 10px;
+    padding: 5px;
+    margin-top: 4rem;
+    width: 75%;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+}
+.account a{
+    text-decoration: none;
+}
+.accounts{
+    width: 100%;
+}
+.pills{
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.username{
+    margin-top: 3rem;
+}
+.car-list{
+    min-width: 300px;
+}
+.car-list-inner{
+    width: 50%;
+}
+.btn-update{
+    margin-left: 20px;
+}
+/****************************card***************************/
+.total-slot{
+    background-color: rgb(18, 85, 124);
+    color: white;
+    font-weight: 500;
+    border: 2px solid gold;
+    border-radius: 50%;
+    padding: 0 8px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 250px;
+    height: 355px;
+    margin: 1rem 0;
+}
+.card-header{
+    background-color: rgb(44, 190, 0);
+}
+.card-header h4{ 
+    color: white;
+}
+.card-taken{
+    background-color: rgb(226, 0, 0); 
+}
+.card-deck{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.car-img{
+    max-width: 100px;
+}
+.form-check-input{
+    margin: 4px;
+}
+@media (max-width:780px) {
+    .car-list-inner{
+        width: 80%;
+    }
+}
+@media (min-width: 760px) {
+    .account{
+        width: 50%;
+    }
+}
+/*******************Modal styling***************************/
+.modal-header{
+    background-color: rgb(23, 196, 0);
+}
+.modal-header h5{
+    color: white;
+}
+.d-body{
+    width: 100%;
+}
+.s-body{
+
+    display: center;
+    width: 100%;
+}
+.sign-in{
+    width: 80% !important;
+    height: fit-content;
+}
+/**********************************verification***************************/
+.verify{
+    display: flex;
+    justify-content: center;
+}
+.form-horizontal{
+    text-align: center;
+}
+.max{
+    max-width: 60%;  
+}
+.verify-message{
+    background-color: rgba(0, 219, 172, 0.445);
+    border-radius: 10px;
+}
